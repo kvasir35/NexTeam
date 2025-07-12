@@ -1,0 +1,17 @@
+.running-clock-cmp {
+	.setters {
+		display: flex;
+		gap: 20px;
+		margin-bottom: 20px;
+		.label {
+			padding-left: 10px;
+		}
+	}
+
+	.controls {
+		margin-bottom: 20px;
+		display: flex;
+		gap: 20px;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,21 @@
+.like-dislike-btn-cmp {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	.btn {
+		&.like-button,
+		&.dislike-button {
+			.separator {
+				margin: 0 5px;
+			}
+
+			&.liked {
+				background-color: rgb(0, 165, 0);
+			}
+
+			&.disliked {
+				background-color: rgb(228, 1, 1);
+			}
+		}
+	}
+}

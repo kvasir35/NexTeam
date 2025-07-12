@@ -1,0 +1,10 @@
+.problem-select-cmp {
+	.title {
+		margin-bottom: 20px;
+	}
+	.problem-select-list {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+}

@@ -1,0 +1,11 @@
+.btn {
+	padding: 20px;
+	cursor: pointer;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	background-color: #1a1a1a;
+	transition: border-color 0.25s;
+	&:disabled {
+		background-color: rgb(180, 180, 180);
+	}
+}
