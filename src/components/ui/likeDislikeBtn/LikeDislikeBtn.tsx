@@ -41,7 +41,7 @@ const LikeDislikeBtn = ({
 				}`}
 				onClick={() => handleClick(LikeButtonStatus.DISLIKED)}
 			>
-				<span className="label">Like</span>
+				<span className="label">Dislike</span>
 				<span className="separator">|</span>
 				<span className="dislikes-counter">{dislikeCount}</span>
 			</Button>
