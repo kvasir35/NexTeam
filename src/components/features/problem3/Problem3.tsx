@@ -66,7 +66,9 @@ const Problem3 = () => {
 			const B = rawB.split(',').map((n) => parseInt(n.trim()));
 
 			if (A.some(isNaN) || B.some(isNaN)) {
-				setResult('Invalid input: arrays must contain numbers only.');
+				setResult(
+					'Invalid input: arrays must contain numbers only separated by comma.'
+				);
 				return;
 			}
 

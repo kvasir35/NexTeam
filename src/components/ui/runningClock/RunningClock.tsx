@@ -58,11 +58,11 @@ const RunningClock = () => {
 		setIsStarted(false);
 		setTimeLeft(0);
 		if (inputMinutesRef.current) {
-			inputMinutesRef.current.value = '0';
+			inputMinutesRef.current.value = '';
 		}
 
 		if (inputSecondsRef.current) {
-			inputSecondsRef.current.value = '0';
+			inputSecondsRef.current.value = '';
 		}
 	};
 

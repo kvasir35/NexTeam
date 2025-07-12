@@ -12,7 +12,7 @@ This project implements three coding exercises:
 
 ## Prerequisites
 
--   Node.js (version 16 or higher)
+-   Node.js (version 20 or higher)
 -   npm or yarn package manager
 
 ## Installation
